@@ -21,7 +21,7 @@ function Library(props) {
   ];
 
   for (let i = 1; i <= 10; i++) {
-    audios.push(`./sounds/a${i}.mp3`);
+    audios.push(`./static/media/audio/a${i}.mp3`);
     images.push(`./images/i${i}`);
     list.push([audios[i - 1], images[i - 1], titles[i - 1]]);
   }
@@ -61,7 +61,7 @@ function Library(props) {
             About
           </a>{" "}
           section and if you’re interested you can find the source code on{" "}
-          <a href="https://github.com/kartiknair/noize">GitHub</a>
+          <a href="https://github.com/s123zz123/noize">GitHub</a>
         </p>
       </div>
       {finalSongs}

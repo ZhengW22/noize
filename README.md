@@ -1,6 +1,6 @@
 # Noize
 
-Noize is a simple web app built with React (using [create-react-app](https://github.com/facebook/create-react-app)) that helps people relax/focus using white noise or background noise. Check it out live [here](https://noize.ml).
+Noize is a simple web app built with React (using [create-react-app](https://github.com/facebook/create-react-app)) that helps people relax/focus using white noise or background noise.
 
 ## Available Scripts
 

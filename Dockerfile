@@ -20,5 +20,5 @@ RUN npm run build
 # production environment
 FROM nginx:stable-alpine
 COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 3000
+COPY src/sounds /usr/share/nginx/html/static/media/audio
 CMD ["nginx", "-g", "daemon off;"]
